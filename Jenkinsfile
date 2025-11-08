@@ -11,7 +11,7 @@ pipeline {
         stage("extract Data") {
             steps {
 
-                bat "python extract.py"
+                bat "C:\\Users\\hpeg2\\AppData\\Local\\Programs\\Python\\Python314\\python.exe extract.py"
             }
         }
 
